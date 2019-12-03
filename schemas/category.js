@@ -18,6 +18,12 @@ export default {
         source: "title",
         maxLength: 96
       }
+    },
+    {
+      name: "color",
+      title: "Color",
+      type: "string",
+      required: true
     }
   ]
 };
